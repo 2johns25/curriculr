@@ -1,8 +1,12 @@
 <?php require "../components/html_start.php"?>
 <?php require "../components/global_header.php"?>
-<div class="page_container">
+
+    <div class="buttons_container">
+
+        
+        
 
 
-</div> <!-- Page container -->
+    </div> <!-- Buttons container -->
 
 <?php require "../components/html_end.php"?>
