@@ -17,7 +17,7 @@
 
         </div> <!-- Two col layout side col -->
 
-</div> <!-- Two col layout wrapper -->
+    </div> <!-- Two col layout wrapper -->
 
 </div> <!-- Page container -->
 

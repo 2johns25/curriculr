@@ -64,7 +64,7 @@
 }
 
 .search_field_wrapper input:focus {
-    background-color: var(--off-white-bg);
+    background-color: white;
 }
 
 .search_button_wrapper {
@@ -101,9 +101,9 @@
 }
 
 .nav_wrapper a {
-    font-size: 1.25rem;
+    font-size: 1.50rem;
     margin: 0 0 0 1.50rem;
-    color: var(--primary-colour-fg-dark);
+    color: var(--primary-colour-dark);
 }
 
 .nav_wrapper a:hover {
@@ -114,6 +114,89 @@
 .nav_wrapper a:active {
     color: rgb(255, 255, 255);
     transition-duration: 0s;
+}
+
+.nav_reminder_button_wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.reminder_dropdown_wrapper {
+    display: none;
+    position: absolute;
+    top: 130%;
+    right: 0%;
+    overflow: auto;
+    z-index: 8888;
+    border: 1px solid var(--primary-colour);
+    background-color: white;
+    border-radius: var(--small-border-radius);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 10px;
+    width: 200px;
+    overflow-y: scroll;
+    max-height: 380px;
+}
+
+.reminder_dropdown_wrapper p {
+    font-size: 13px;
+    color: var(--text-colour-dark);
+    margin: 0 0 0.75rem 0;
+    padding: 0 0 5px 0;
+}
+
+.reminder_dropdown_date_container {
+    /* padding: 0 0 0.25rem 0; */
+    margin: 0 0 1rem 0;
+    border-bottom: 1px solid var(--grey-colour);
+    
+}
+
+.reminder_dropdown_date_container:last-child {
+    /* padding: 0 0 0.25rem 0; */
+    margin: 0 0 1rem 0;
+    border-bottom: none;
+    
+}
+
+.reminder_dropdown_date_container p {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: var(--text-colour-subtle);
+    font-weight: var(--bold-weight);
+    margin: 0 0 0.75rem 0;
+    padding: 0;
+    border-bottom: none;
+    
+}
+
+.reminder_dropdown_record_container {
+    
+}
+
+.reminder_dropdown_record_container a:first-child {
+    font-size: 13px;
+    color: var(--primary-colour);
+    font-weight: var(--bold-weight);
+    margin: 0 0 0.25rem 0;
+    display: block;
+    max-width: 190px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;    
+}
+
+.reminder_dropdown_record_container a:last-child {
+    font-size: 13px;
+    color: var(--text-colour-subtle);
+    font-weight: var(--normal-weight);
+    margin: 0 0 1rem 0;
+    display: block;
+    max-width: 190px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .nav_option_button_wrapper {
@@ -160,9 +243,35 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+      /** SEARCH BAR **/
+    
+    .search_field_wrapper input {
+        padding: 5px 60px 5px 5px; 
+    }
+    
+    .search_button_wrapper button {
+        padding: 5px 20px;
+
+    }
+
+    /** NAVIGATION **/
+
     .nav_wrapper a {
-        font-size: 1.50rem;
         margin: 0 0 0 2rem;
+    }
+
+    .reminder_dropdown_wrapper {
+        width: 320px;
+    }
+
+    .reminder_dropdown_record_container a:first-child {
+        max-width: 310px;
+
+    }
+    
+    .reminder_dropdown_record_container a:last-child {
+        max-width: 310px;
+
     }
 
 } 

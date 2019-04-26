@@ -9,7 +9,7 @@
 
 /** COMPONENTS **/
 
-@import "components/header.css";
+@import "components/global_header.css";
 @import "components/class_header.css";
 
 @import "components/reminder_sidebox.css";

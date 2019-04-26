@@ -16,22 +16,62 @@
 
         <div class="nav_wrapper">
 
-            <a href="../pages/index.php"><i class="fas fa-home"></i></a>
-            <a href="#" class="nav_notif_button"><i class="fas fa-calendar-week"></i></a>
-            <a href="../pages/profile.php"><i class="fas fa-user"></i></a>
+            <a href="../views/index.php"><i class="fas fa-home"></i></a>
+            
+
+
+            <div class="nav_reminder_button_wrapper">
+                <a href="#" class="nav_notif_button"><i class="fas fa-calendar-week"></i></a>
+                <div class="reminder_dropdown_wrapper">
+                    <p>Reminders</p>
+
+                    <div class="reminder_dropdown_date_container">
+                        <p>For 2 June</p>
+
+                        <div class="reminder_dropdown_record_container">
+                            <a>Bring revision book to next lesson</a>
+                            <a>Year 10, History</a>
+                        </div> <!-- Reminder dropdown record container -->
+
+                        <div class="reminder_dropdown_record_container">
+                            <a>Bring revision book to next lesson</a>
+                            <a>Year 10, History</a>
+                        </div> <!-- Reminder dropdown record container -->
+
+                    </div> <!-- Reminder dropdown date container -->
+                    
+
+                     <div class="reminder_dropdown_date_container">
+                        <p>For 2 June</p>
+
+                        <div class="reminder_dropdown_record_container">
+                            <a>Bring revision book to next lesson</a>
+                            <a>Year 10, History</a>
+                        </div> <!-- Reminder dropdown record container -->
+
+                        <div class="reminder_dropdown_record_container">
+                            <a>Bring revision book to next lesson</a>
+                            <a>Year 10, History</a>
+                        </div> <!-- Reminder dropdown record container -->
+
+                        <div class="reminder_dropdown_record_container">
+                            <a>Bring revision book to next lesson</a>
+                            <a>Year 10, History</a>
+                        </div> <!-- Reminder dropdown record container -->
+
+                    </div> <!-- Reminder dropdown date container -->
+
+                    
+                </div> <!-- Reminder dropdown wrapper -->
+            </div> <!-- Nav reminder button wrapper -->
+
+
+
+            <a href="../views/profile.php"><i class="fas fa-user"></i></a>
 
             <div class="nav_option_button_wrapper">
-            <a href="#" class="nav_option_button">
-                <i class="fas fa-caret-down"></i></a>
-                <div class="nav_options" id="js_drop_down">
-
-                    <div class="nav_option">
-                        <p>Assignments</p>
-                    </div>
-
-                    <div class="nav_option">
-                        <p>Drafts</p>
-                    </div>
+                <a href="#" class="nav_option_button"><i class="fas fa-caret-down"></i></a>
+            <div class="nav_options" id="js_drop_down">
 
                     <div class="nav_option">
                         <p>Settings</p>
