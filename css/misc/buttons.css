@@ -27,6 +27,7 @@
     color: var(--text-colour-light);
     border: 0;
     font-weight: 600;
+    user-select: none;
 }
 
 .fill_button_wrapper:hover  {
@@ -50,6 +51,8 @@
     z-index: 8888;
     border: 1px solid var(--primary-colour);
     border-radius: var(--small-border-radius);
+    background-color: white;
+    display: none;
 }
 
 .drop_down_fill_button_wrapper .drop_down_options_wrapper .drop_down_option {
@@ -57,6 +60,7 @@
     padding: 7px 12px;
     border-bottom: 1px solid var(--primary-colour);
     color: var(--primary-colour);
+    user-select: none;
 }
 
 .drop_down_fill_button_wrapper .drop_down_options_wrapper .drop_down_option:last-child {
@@ -90,6 +94,7 @@
     color: var(--primary-colour);
     border: 1px solid var(--primary-colour);
     font-weight: 600;
+    user-select: none;
 }
 
 .outline_button_wrapper:hover  {
@@ -113,6 +118,8 @@
     z-index: 8888;
     border: 1px solid var(--primary-colour);
     border-radius: var(--small-border-radius);
+    background-color: white;
+    display: none;
 }
 
 .drop_down_outline_button_wrapper .drop_down_options_wrapper .drop_down_option {
@@ -120,6 +127,7 @@
     padding: 7px 12px;
     border-bottom: 1px solid var(--primary-colour);
     color: var(--primary-colour);
+    user-select: none;
 }
 
 .drop_down_outline_button_wrapper .drop_down_options_wrapper .drop_down_option:last-child {
@@ -143,12 +151,14 @@
 .cta_button {
     height: 32px;
     padding: 7px 12px;
-    background-color: var(--transparent);
+    background-color: var(--primary-colour);
     border-radius: var(--small-border-radius);
     color: var(--primary-colour);
     border: 1px solid var(--transparent);
     font-weight: 600;
     font-size: 12px;
+    color: var(--text-colour-light);
+    user-select: none;
 }
 
 .cta_button:hover {
@@ -172,6 +182,7 @@
     border: 1px solid var(--primary-colour);
     font-weight: 600;
     font-size: 12px;
+    user-select: none;
 }
 
 .rectangle_outline_button:hover {
@@ -194,6 +205,7 @@
     border: 1px solid var(--transparent);
     font-weight: 600;
     font-size: 12px;
+    user-select: none;
 }
 
 .rectangle_fill_button:hover {
@@ -217,6 +229,7 @@
     border: 1px solid var(--transparent);
     font-weight: 600;
     font-size: 12px;
+    user-select: none;
 }
 
 .pill_fill_button:hover {
@@ -240,6 +253,7 @@
     border: 1px solid var(--primary-colour);
     font-weight: 600;
     font-size: 12px;
+    user-select: none;
 }
 
 .pill_outline_button:hover {
@@ -251,11 +265,14 @@
     color: var(--text-colour-light);
 }
 
+/** DISABLED **/
+
 .disabled_button {
     cursor: not-allowed;
     background-color: var(--grey-colour-light);
     color: var(--grey-colour);
     border: 1px solid var(--grey-colour);
+    user-select: none;
 }
 
 .disabled_button:hover {
@@ -269,8 +286,6 @@
     background-color: var(--grey-colour-light);
     color: var(--grey-colour);
 }
-
-
 
 /** CUSTOM DESIGN **/
 
