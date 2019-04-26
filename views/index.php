@@ -1,8 +1,10 @@
 <?php require "../components/html_start.php"?>
 <?php require "../components/global_header.php"?>
-<div class="page_container">
+<div class="global_content_container">
 
-<div class="class_table_wrapper">
+<div class="one_col_layout_wrapper">
+    
+    <div class="class_table_wrapper">
     <div class="class_table_header">
         <div class="class_table_row">
             <div class="class_table_col1"><p>Class title</p></div>
@@ -24,6 +26,10 @@
     </div> <!-- Class table body -->
 
 </div> <!-- Class table wrapper -->
+
+</div>
+
+
 
 </div> <!-- Page container -->
 

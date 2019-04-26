@@ -1,7 +1,51 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
 
-} 
+    :root {
+
+        /** COLOUR **/
+
+        --primary-colour: rgb(45, 150, 185);
+        --primary-colour-light: rgb(125, 204, 230);
+        --primary-colour-dark: rgb(13, 83, 107);
+
+        --secondary-colour: ;
+        --secondary-colour-light: ;
+        --secondary-colour-dark: ;
+
+        --grey-colour: ;
+        --grey-colour-light: ;
+        --grey-colour-dark: ;
+
+        --white-colour: ;
+        --black-colour: ;
+
+        --text-colour: ;
+        --text-colour-light: ;
+        --dark-colour-dark: ;
+        --text-colour-subtle: ;
+
+        --curriculr-background-colour: rgb(240, 240, 240);
+
+        /** FONT-SIZE **/
+
+        /** BORDER RADIUS **/
+
+        --small-border-radius: 2px;
+        --medium-border-radius: 3px;
+        --large-border-radius: 5px;
+
+        --pill-border-radius: 25px; 
+        --full-border-radius: 100%;
+
+        /** FONT WEIGHT **/
+
+        --exta-light-weight: 100;
+        --light-weight: 300;
+        --normal-weight: 400;
+        --bold-weight: 600;
+        --extra-bold-weight: 900;
+
+    }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {

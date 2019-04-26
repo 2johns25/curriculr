@@ -1,7 +1,98 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
 
-} 
+    /** BOX SIZING **/
+
+    html {
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    /** HTML AND BODY RESET **/
+
+    html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-width: 320px;
+        overflow: visible;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-width: 320px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 14px;
+        overflow: visible;
+    }
+
+    /** PADDING AND MARGIN RESET ON ELEMENTS **/
+
+    p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
+    /** ANCHOR RESETS **/
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+    /** FORM ELEMENTS RESET **/
+
+    input, button {
+        outline: none;
+        color: inherit;
+        user-select: none;
+        font-family: inherit;
+    }
+
+    /** CURSOR RESET **/ 
+
+    a, button {
+        cursor: pointer;
+    }
+
+    /** ENABLING TOUCH SCREEN **/
+
+    a,
+    area,
+    button,
+    input,
+    label,
+    select,
+    summary,
+    textarea,
+    div,
+    p 
+    [tabindex] {
+        -ms-touch-action: manipulation; /* 1 */
+        touch-action: manipulation; /* 2 */
+        font-size: inherit;
+        font-family: inherit;
+    }
+
+      /** FLOAT CLEARFIX **/
+
+      .clearfix { /** Floats clearfix **/
+        content: "";
+        display: table;
+        clear: none;
+    }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {

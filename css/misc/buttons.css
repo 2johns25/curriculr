@@ -1,7 +1,85 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
 
-} 
+/** DEFAULT DESIGN **/
+
+/** DROP DOWN FILL BUTTON WRAPPER **/
+
+.drop_down_fill_button_wrapper {
+
+}
+
+.drop_down_fill_button_wrapper a {
+
+}
+
+.drop_down_fill_button_wrapper a span {
+
+}
+
+.drop_down_fill_button_wrapper a i {
+
+}
+
+.drop_down_fill_button_wrapper .drop_down_options_wrapper {
+
+}
+
+.drop_down_fill_button_wrapper .drop_down_options_wrapper .drop_down_option {
+
+}
+
+/** DROP DOWN OUTLINE BUTTON WRAPPER **/
+
+.drop_down_outline_button_wrapper {
+
+}
+
+.drop_down_outline_button_wrapper a {
+
+}
+
+.drop_down_outline_button_wrapper a span {
+
+}
+
+.drop_down_outline_button_wrapper a i {
+
+}
+
+.drop_down_outline_button_wrapper .drop_down_options_wrapper {
+
+}
+
+.drop_down_outline_button_wrapper .drop_down_options_wrapper .drop_down_option {
+
+}
+
+/** RECTANGLE OUTLINE BUTTON **/
+
+.rectangle_outline_button {
+
+}
+
+/** RECTANGLE FILL BUTTON **/
+
+.rectangle_fill_button {
+
+}
+
+/** PILL FILL BUTTON **/
+
+.pill_fill_button {
+
+}
+
+/** PILL OUTLINE BUTTON **/
+
+.pill_outline_button {
+
+}
+
+/** CUSTOM DESIGN **/
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
