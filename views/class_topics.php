@@ -3,6 +3,9 @@
 <?php require "../components/class_header.php"?>
 <div class="global_content_container">
 
+    <div class="one_col_layout_wrapper">
+
+    </div> <!-- One col layout wrapper -->
 
 </div> <!-- Page container -->
 

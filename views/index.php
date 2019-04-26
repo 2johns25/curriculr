@@ -27,7 +27,7 @@
 
 </div> <!-- Class table wrapper -->
 
-</div>
+</div> <!-- One col layout wrapper -->
 
 
 
