@@ -12,16 +12,17 @@
         --secondary-colour-light: ;
         --secondary-colour-dark: ;
 
-        --grey-colour: ;
-        --grey-colour-light: ;
-        --grey-colour-dark: ;
+        --grey-colour: rgb(165, 165, 165);
+        --grey-colour-light: rgb(233, 233, 233);
+        --grey-colour-dark: rgb(97, 97, 97);
 
         --white-colour: ;
         --black-colour: ;
+        --transparent: transparent;
 
         --text-colour: ;
-        --text-colour-light: ;
-        --dark-colour-dark: ;
+        --text-colour-light: rgb(255, 255, 255);
+        --dark-colour-dark: rgb(0, 0, 0);
         --text-colour-subtle: ;
 
         --curriculr-background-colour: rgb(240, 240, 240);
