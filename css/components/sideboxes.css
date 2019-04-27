@@ -1,0 +1,100 @@
+/* Extra small devices (phones, 600px and down) */
+
+.reminder_box_container {
+    background-color: white;
+    border: 1px solid var(--grey-colour); 
+    border-radius: var(--medium-border-radius);
+    padding: 10px 10px;
+    width: 100%;
+   
+}
+
+.sidebox_header {
+    font-size: 14px;
+    font-weight: var(--bold-weight);
+    margin: 0 0 0.50rem 0;
+}
+
+.sidebox_section_container {
+    border-bottom: 1px solid var(--grey-colour);
+    margin: 0 0 0.50rem 0;
+    padding: 0.50rem 0 0 0;
+    
+}
+
+.sidebox_section_header {
+    font-size: 11px;
+    color: var(--text-colour-subtle);
+    text-transform: uppercase;
+    font-weight: var(--bold-weight);
+    margin: 0 0 0.50rem 0;
+}
+
+.side_box_record_container {
+    width: 100%;
+}
+
+.sidebox_record_title {
+    font-size: 13px;
+    color: var(--primary-colour);
+    font-weight: var(--bold-weight);
+    display: inline-block;
+    margin: 0 0 0px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.sidebox_record_link {
+    font-size: 12px;
+    color: var(--text-colour-subtle);
+    display: inline-block;
+    margin: 0 0 0.50rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.sidebox_record_title:hover, 
+.sidebox_record_link:hover,
+.sidebox_footer a:hover {
+    text-decoration: underline;
+}
+
+.sidebox_record_title:active, 
+.sidebox_record_link:active,
+.sidebox_footer a:active {
+    text-decoration: none;
+}
+
+.sidebox_footer {
+    text-align: right;
+    padding: 5px 0;
+}
+
+.sidebox_footer a {
+    font-size: 13px;
+    color: var(--text-colour-subtle);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

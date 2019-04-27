@@ -12,13 +12,14 @@
 @import "components/global_header.css";
 @import "components/class_header.css";
 
-@import "components/reminder_sidebox.css";
-@import "components/members_sidebox.css";
-@import "components/topic_sidebox.css";
+@import "components/sideboxes.css";
+
 
 @import "components/class_table.css";
 @import "components/topic_table.css";
 @import "comments.css";
+
+@import "components/posts.css";
 
 /** VIEWS **/
 

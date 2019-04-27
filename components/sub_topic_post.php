@@ -1,9 +1,10 @@
 <div class="post_wrapper">
-    <div class="reminder_post_container">
+    <div class="post_container">
+        <div class="post_content_container">
             <div class="post_header">
                 <div class="post_header_image"></div>
                 <div class="post_header_info">
-                    <p class="post_name"><a class="post_author_name">Mrs Doe</a> added a new reminder to the class</p>
+                    <p class="post_name"><a class="post_author_name">Mrs Doe</a> added a new sub-topic to the class</p>
                     <p class="post_time">2 June</p>
                 </div> <!-- Post header info -->
                 <div class="post_options_button ellipses_drop_down_wrapper">
@@ -17,11 +18,15 @@
             </div> <!-- Post header -->
             <div class="post_body">
                 <div class="post_title_container">
-                    <p><span class="post_reminder_time">2 June</span> - Bring your book to next lesson</p>
+                    <p>Post title</p>
                 </div> <!-- Post title container -->
                 <div class="post_message_container">
                     <p>Post message</p>
                 </div> <!-- Post title container -->
             </div> <!-- Post body -->
-    </div> <!-- Post container -->
-</div> <!-- Post wrapper -->
+        </div> <!-- Post content container -->
+        <div class="post_footer">
+            <a class="cta_button">Go to sub-topic</a>
+        </div> <!-- Post footer -->
+    </div> <!-- Topic post container -->
+</div> <!-- Topic post wrapper -->

@@ -3,7 +3,8 @@
 .class_header_wrapper {
     width: 100%;
     margin: 0 auto;
-    border-bottom: 1px solid var(--grey-colour-dark);
+    border-bottom: 1px solid var(--grey-colour);
+    background-color: white;
 }
 
 .class_header_container {
@@ -64,7 +65,7 @@
     height: 50%;
     content: "";
     width: 1px;
-    background-color: var(--grey-colour-dark);
+    background-color: var(--grey-colour);
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

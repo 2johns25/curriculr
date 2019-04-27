@@ -59,6 +59,15 @@
                     </div> <!-- Drop down options wrapper -->
                 </div> <!-- Drop down button wrapper -->
 
+                <div class="ellipses_drop_down_wrapper">
+                    <a href="#" class="ellipses_button"><i class="fas fa-ellipsis-h"></i></a>
+                    <div class="drop_down_options_wrapper">
+                        <a class="drop_down_option">Copy link</a>
+                        <a class="drop_down_option">Report</a>
+                        <a class="drop_down_option">Delete</a>
+                    </div> <!-- Drop down options wrapper -->
+                </div> <!-- Ellipses dropdown button -->
+
                 <a class="rectangle_outline_button">Outline Button</a>
 
                 <a class="rectangle_outline_button disabled_button">Disabled Button</a>
