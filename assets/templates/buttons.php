@@ -50,6 +50,15 @@
                     </div> <!-- Drop down options wrapper -->
                 </div> <!-- Drop down button wrapper -->
 
+                <div class="drop_down_button_wrapper">
+                    <button class="fill_button_wrapper"><span>Dropdown</span><i class="fas fa-angle-down"></i></button>
+                    <div class="drop_down_options_wrapper">
+                        <a class="drop_down_option">Option 1</a>
+                        <a class="drop_down_option">Option 1</a>
+                        <a class="drop_down_option">Option 1</a>
+                    </div> <!-- Drop down options wrapper -->
+                </div> <!-- Drop down button wrapper -->
+
                 <a class="rectangle_outline_button">Outline Button</a>
 
                 <a class="rectangle_outline_button disabled_button">Disabled Button</a>

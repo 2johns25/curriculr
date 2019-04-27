@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 
 .topic_table_wrapper {
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .topic_table_row {
@@ -17,7 +17,7 @@
 
 .topic_table_header {
     margin: 0 0 1rem 0;
-    padding: 0 0 1rem 0;
+    padding: 0 0 0.50rem 0;
     border-bottom: 1px solid var(--grey-colour);
 }
 

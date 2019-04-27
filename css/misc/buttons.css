@@ -20,14 +20,14 @@
 }
 
 .fill_button_wrapper  {
-    height: 32px;
     padding: 7px 12px;
-    background-color: var(--primary-colour);
+    background-color: transparent;
     border-radius: var(--small-border-radius);
-    color: var(--text-colour-light);
     border: 0;
+    color: var(--primary-colour);
     font-weight: 600;
     user-select: none;
+    display: inline-block;
 }
 
 .fill_button_wrapper:hover  {
@@ -36,7 +36,7 @@
 }
 
 .fill_button_wrapper:active {
-    background-color: var(--primary-colour-dark);
+    background-color: var(--primary-colour);
     color: var(--text-colour-light);
 }
 
@@ -49,7 +49,6 @@
     top: 110%;
     left: 0%;
     z-index: 8888;
-    border: 1px solid var(--primary-colour);
     border-radius: var(--small-border-radius);
     background-color: white;
     display: none;
@@ -87,7 +86,6 @@
 }
 
 .outline_button_wrapper  {
-    height: 32px;
     padding: 7px 12px;
     background-color: transparent;
     border-radius: var(--small-border-radius);
@@ -145,11 +143,56 @@
     text-decoration: none;
 }
 
+/** DROP DOWN BUTTON WRAPPER **/
+
+.drop_down_button_wrapper {
+    position: relative;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+.outline_button_wrapper span {
+    margin: 0 10px 0 0;
+}
+
+.drop_down_button_wrapper .drop_down_options_wrapper {
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    z-index: 8888;
+    border: 1px solid var(--primary-colour);
+    border-radius: var(--small-border-radius);
+    background-color: white;
+    display: none;
+}
+
+.drop_down_button_wrapper .drop_down_options_wrapper .drop_down_option {
+    display: block;
+    padding: 7px 12px;
+    border-bottom: 1px solid var(--primary-colour);
+    color: var(--primary-colour);
+    user-select: none;
+}
+
+.drop_down_button_wrapper .drop_down_options_wrapper .drop_down_option:last-child {
+    border-bottom: 0; 
+}
+
+.drop_down_button_wrapper .drop_down_options_wrapper .drop_down_option:hover {
+    background-color: var(--primary-colour-light);
+    text-decoration: underline;
+}
+
+.drop_down_button_wrapper .drop_down_options_wrapper .drop_down_option:active {
+    background-color: var(--primary-colour-dark);
+    color: var(--text-colour-light);
+    text-decoration: none;
+}
+
 /** CTA BUTTON **/
 
 
 .cta_button {
-    height: 32px;
     padding: 7px 12px;
     background-color: var(--primary-colour);
     border-radius: var(--small-border-radius);
@@ -159,6 +202,7 @@
     font-size: 12px;
     color: var(--text-colour-light);
     user-select: none;
+    display: inline-block;
 }
 
 .cta_button:hover {
@@ -174,7 +218,6 @@
 /** RECTANGLE OUTLINE BUTTON **/
 
 .rectangle_outline_button {
-    height: 32px;
     padding: 7px 12px;
     background-color: var(--transparent);
     border-radius: var(--small-border-radius);
@@ -183,6 +226,7 @@
     font-weight: 600;
     font-size: 12px;
     user-select: none;
+    display: inline-block;
 }
 
 .rectangle_outline_button:hover {
@@ -197,15 +241,14 @@
 /** RECTANGLE FILL BUTTON **/
 
 .rectangle_fill_button {
-    height: 32px;
     padding: 7px 12px;
     background-color: var(--transparent);
     border-radius: var(--small-border-radius);
     color: var(--primary-colour);
-    border: 1px solid var(--transparent);
     font-weight: 600;
     font-size: 12px;
     user-select: none;
+    display: inline-block;
 }
 
 .rectangle_fill_button:hover {
@@ -215,21 +258,19 @@
 .rectangle_fill_button:active {
     background-color: var(--primary-colour);
     color: var(--text-colour-light);
-    border: 1px solid var(--primary-colour);
 }
 
 /** PILL FILL BUTTON **/
 
 .pill_fill_button {
-    height: 32px;
     padding: 7px 12px;
     background-color: var(--transparent);
     border-radius: var(--pill-border-radius);
     color: var(--primary-colour);
-    border: 1px solid var(--transparent);
     font-weight: 600;
     font-size: 12px;
     user-select: none;
+    display: inline-block;
 }
 
 .pill_fill_button:hover {
@@ -239,13 +280,11 @@
 .pill_fill_button:active {
     background-color: var(--primary-colour);
     color: var(--text-colour-light);
-    border: 1px solid var(--primary-colour);
 }
 
 /** PILL OUTLINE BUTTON **/
 
 .pill_outline_button {
-    height: 32px;
     padding: 7px 12px;
     background-color: var(--transparent);
     border-radius: var(--pill-border-radius);
@@ -254,6 +293,7 @@
     font-weight: 600;
     font-size: 12px;
     user-select: none;
+    display: inline-block;
 }
 
 .pill_outline_button:hover {
