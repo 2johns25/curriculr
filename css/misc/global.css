@@ -4,9 +4,9 @@
     width: 100%;
     min-width: 320px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 1rem 0;
     background-color: var(--curriculr-background-colour); 
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .global_body_wrapper {
@@ -90,11 +90,11 @@
     }
 
     .two_col_layout_main_col_reverse {
-        order: 2;
+        order: 1;
     }
     
     .two_col_layout_side_col_reverse {
-        order: 1;
+        order: 2;
     }
 
 } 

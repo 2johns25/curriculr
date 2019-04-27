@@ -1,4 +1,4 @@
-<div class="reminder_box_container">
+<div class="sidebox_container">
     <p class="sidebox_header">Class reminders</p>
 
     <div class="sidebox_section_container">
