@@ -3,14 +3,14 @@
 <?php require "../components/class_header.php"?>
 <div class="global_content_container">
  <div class="one_col_layout_wrapper">
-    <?php require "../components/topic_header.php"?>
+    <?php require "../components/topic_editor_header.php"?>
 </div> <!-- One col layout wrapper -->
 
     <div class="two_col_layout_wrapper">
 
         <div class="two_col_layout_main_col two_col_layout_main_col_reverse">
-            <div class="topic_content_wrapper">
-                <?php require "../components/topic_content.php"?>
+            <div class="topic_editor_wrapper">
+                <?php require "../components/topic_editor.php"?>
             </div>
         </div> <!-- Two col layout main col -->
 

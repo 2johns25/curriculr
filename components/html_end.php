@@ -2,9 +2,7 @@
     </div> <!-- CURRICULR WRAPPER -->
 
     <!-- INCLUDING THE JAVASCRIPT FILES -->   
-
-<!-- Include JQuery for summernote -->
-<script src="../js/jquery_min.js"></script>
+<script src="../js/third_party_js/summernote.lite.js"></script>
 
 <!-- Including custom JavaScript file -->
 <script src="../js/main.js"></script>

@@ -22,16 +22,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Curriculr</title>
 
-    <!-- INCLUDING STYLESHEETS -->
-
     <!-- Include fontawaesome external file -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
-    <!-- Include summernote css/js -->
-    <!-- <link href="../assets/wysiwyg/summernote-lite.css" rel="stylesheet">
-    <script src="../assets/wysiwyg/summernote-lite.js"></script> -->
+
+    <!-- Include JQuery for summernote -->
+    <script src="../js/third_party_js/jquery.min.js"></script>
 
     <!-- Inlcude main custom stylesheet file -->
+    
     <link rel="stylesheet" type="text/css" href="../css/main.css"/>
 
 </head>

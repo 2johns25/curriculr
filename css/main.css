@@ -1,5 +1,9 @@
 /** IMPORT ALL OTHER CSS STYLESHEETS **/
 
+/** THIRD PARTY CSS  **/
+
+@import "third_party_css/summernote.css";
+
 /** MISC **/
 
 @import "misc/reset.css";
@@ -13,14 +17,16 @@
 @import "components/class_header.css";
 
 @import "components/sideboxes.css";
+@import "components/topic_header.css";
 @import "components/topic_content.css";
 
 
 @import "components/class_table.css";
 @import "components/topic_table.css";
-@import "comments.css";
+@import "components/comments.css";
 
 @import "components/posts.css";
+
 
 /** VIEWS **/
 
@@ -35,7 +41,4 @@
 @import "views/topic.css";
 @import "views/sub_topic.css";
 
-@import "views/create_topic.css";
-@import "views/create_subtopic.css";
-@import "views/edit_topic.css";
-@import "views/edit_subtopic.css";
+@import "views/topic_editor.css";

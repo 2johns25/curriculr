@@ -1,5 +1,16 @@
 /* Extra small devices (phones, 600px and down) */
 
+.topic_editor_container {
+    white-space: normal;
+    border-radius: var(--medium-border-radius);
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid var(--grey-colour);
+}
+
+.note-editor.note-frame {
+    border: 0;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {

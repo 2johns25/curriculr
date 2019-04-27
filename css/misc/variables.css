@@ -8,9 +8,9 @@
         --primary-colour-light: rgb(125, 204, 230);
         --primary-colour-dark: rgb(13, 83, 107);
 
-        --secondary-colour: ;
-        --secondary-colour-light: ;
-        --secondary-colour-dark: ;
+        --secondary-colour: rgb(185, 45, 45);
+        --secondary-colour-light: rgb(230, 125, 125);
+        --secondary-colour-dark: rgb(107, 13, 13);
 
         --grey-colour: rgb(165, 165, 165);
         --grey-colour-light: rgb(233, 233, 233);
