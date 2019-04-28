@@ -3,8 +3,8 @@
 
              <a class="cta_button topic_editor_buttons">Save</a>
 
-             <div class="drop_down_fill_button_wrapper topic_editor_button">
-                <button class="fill_button_wrapper"><span>Options</span><i class="fas fa-angle-down"></i></button>
+             <div class="drop_down_outline_button_wrapper topic_editor_button">
+                <button class="outline_button_wrapper"><span>Options</span><i class="fas fa-angle-down"></i></button>
                 <div class="drop_down_options_wrapper">
                     <a class="drop_down_option">Add section</a>
                     <div class="position_picker_wrapper"><span>Positition</span>

@@ -24,6 +24,13 @@
                     <?php require "../components/reminder_box.php"?>
                 </div> <!-- Reminder box wrapper -->
             </div> <!-- Side box wrapper -->
+            
+            <div class="side_box_wrapper">
+                <div class="members_box_wrapper">
+                    <?php require "../components/members_box.php"?>
+                </div> <!-- Members box wrapper -->
+
+            </div> <!-- Side box wrapper -->
         </div> <!-- Two col layout side col -->
     </div> <!-- Two col layout wrapper -->
 </div> <!-- Global content container -->

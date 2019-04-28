@@ -1,5 +1,5 @@
 <div class="post_wrapper">
-    <div class="reminder_post_container">
+    <div class="post_container">
             <div class="post_header">
                 <div class="post_header_image"></div>
                 <div class="post_header_info">

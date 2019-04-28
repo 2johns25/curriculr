@@ -41,7 +41,7 @@
 
     a {
         text-decoration: none;
-        color: black;
+        color: var(--text-colour-dark);
     }
 
     a:hover {

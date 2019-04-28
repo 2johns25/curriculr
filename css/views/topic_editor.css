@@ -11,6 +11,7 @@
     background-color: white;
     border: 1px solid var(--grey-colour);
     padding: 1px;
+    box-shadow: var(--box-border-shadow);
 }
 
 .note-editable ul {

@@ -18,15 +18,15 @@
 
 .topic_edit_cancel {
     color: var(--text-colour-dark);
-    margin: 0 auto 0 0;
+    margin: 0 auto 0 1rem;
 }
 
 .topic_edit_cancel:hover {
-    background-color: var(--grey-colour-light);
+    background-color: var(--neutral-colour);
 }
 
 .topic_edit_cancel:active {
-    background-color: var(--grey-colour-dark);
+    background-color: var(--neutral-colour-dark);
 }
 
 .topic_edit_delete {
@@ -62,7 +62,7 @@
 
 .position_picker_wrapper input {
     width: 50px;
-    border: 1px solid var(--grey-colour);
+    border: 1px solid var(--neutral-colour-middle);
     border-radius: var(--small-border-radius);
     margin: 0 0 0 5px;
     padding: 0 0 0 5px;
@@ -80,28 +80,29 @@
     border-bottom: 0; 
 }
 
-.drop_down_fill_button_wrapper .drop_down_options_wrapper .drop_down_option:hover {
+.drop_down_outline_button_wrapper .drop_down_options_wrapper .drop_down_option:hover {
     background-color: var(--primary-colour-light);
     text-decoration: none;
 }
 
-.drop_down_fill_button_wrapper .drop_down_options_wrapper .drop_down_option:active {
-    background-color: var(--primary-colour-dark);
+.drop_down_outline_button_wrapper .drop_down_options_wrapper .drop_down_option:active {
+    background-color: var(--primary-colour);
     color: var(--text-colour-light);
     text-decoration: none;
 }
 
 .topic_editor_button .drop_down_options_wrapper .topic_edit_delete {
-    color: var(--secondary-colour);
+    color: var(--tertiary-colour);
 }
 
-.drop_down_fill_button_wrapper .drop_down_options_wrapper .topic_edit_delete:hover {
-    background-color: var(--secondary-colour-light);
+.drop_down_outline_button_wrapper .drop_down_options_wrapper .topic_edit_delete:hover {
+    background-color: var(--tertiary-colour-light);
+    color: var(--text-colour-light);
     text-decoration: none;
 }
 
-.drop_down_fill_button_wrapper .drop_down_options_wrapper .topic_edit_delete:active {
-    background-color: var(--secondary-colour-dark);
+.drop_down_outline_button_wrapper .drop_down_options_wrapper .topic_edit_delete:active {
+    background-color: var(--tertiary-colour);
     color: var(--text-colour-light);
     text-decoration: none;
 }

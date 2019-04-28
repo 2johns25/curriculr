@@ -1,6 +1,5 @@
 <div class="post_wrapper">
     <div class="post_container">
-    <div class="post_content_container">
         <div class="post_header">
             <div class="post_header_image"></div>
             <div class="post_header_info">
@@ -24,7 +23,6 @@
                 <p>Post message</p>
             </div> <!-- Post title container -->
         </div> <!-- Post body -->
-    </div> <!-- Post content container -->
         <div class="post_footer">
             <a class="cta_button">Go to topic</a>
         </div> <!-- Post footer -->

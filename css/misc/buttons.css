@@ -32,6 +32,7 @@
 
 .fill_button_wrapper:hover  {
     background-color: var(--primary-colour-light);
+    color: var(--text-colour-light);
 
 }
 
@@ -69,13 +70,12 @@
 
 .drop_down_fill_button_wrapper .drop_down_options_wrapper .drop_down_option:hover {
     background-color: var(--primary-colour-light);
-    text-decoration: underline;
+    color: var(--text-colour-light);
 }
 
 .drop_down_fill_button_wrapper .drop_down_options_wrapper .drop_down_option:active {
     background-color: var(--primary-colour-dark);
     color: var(--text-colour-light);
-    text-decoration: none;
 }
 
 /** DROP DOWN OUTLINE BUTTON WRAPPER **/
@@ -98,11 +98,12 @@
 
 .outline_button_wrapper:hover  {
     background-color: var(--primary-colour-light);
+    color: var(--text-colour-light);
 
 }
 
 .outline_button_wrapper:active {
-    background-color: var(--primary-colour-dark);
+    background-color: var(--primary-colour);
     color: var(--text-colour-light);
 }
 
@@ -135,13 +136,12 @@
 
 .drop_down_outline_button_wrapper .drop_down_options_wrapper .drop_down_option:hover {
     background-color: var(--primary-colour-light);
-    text-decoration: underline;
+    color: var(--text-colour-light);
 }
 
 .drop_down_outline_button_wrapper .drop_down_options_wrapper .drop_down_option:active {
     background-color: var(--primary-colour-dark);
     color: var(--text-colour-light);
-    text-decoration: none;
 }
 
 /** DROP DOWN BUTTON WRAPPER **/
@@ -159,7 +159,7 @@
 .drop_down_button_wrapper .drop_down_options_wrapper {
     position: absolute;
     top: 110%;
-    left: 0%;
+    right: 0%;
     z-index: 8888;
     border: 1px solid var(--primary-colour);
     border-radius: var(--small-border-radius);
@@ -173,6 +173,7 @@
     border-bottom: 1px solid var(--primary-colour);
     color: var(--primary-colour);
     user-select: none;
+    font-weight: var(--bold-weight);
 }
 
 .drop_down_button_wrapper .drop_down_options_wrapper .drop_down_option:last-child {
@@ -181,13 +182,11 @@
 
 .drop_down_button_wrapper .drop_down_options_wrapper .drop_down_option:hover {
     background-color: var(--primary-colour-light);
-    text-decoration: underline;
+    color: var(--text-colour-light);
 }
 
 .drop_down_button_wrapper .drop_down_options_wrapper .drop_down_option:active {
-    background-color: var(--primary-colour-dark);
-    color: var(--text-colour-light);
-    text-decoration: none;
+    background-color: var(--primary-colour);
 }
 
 /** ELLIPSES DROP DOWN BUTTON WRAPPER **/
@@ -201,36 +200,37 @@
 .ellipses_drop_down_wrapper a {
     padding: 7px 12px;
     font-size: 12px;
-    color: var(--grey-colour);
+    color: var(--neutral-colour);
     border-radius: var(--small-border-radius);
 }
 
 .ellipses_drop_down_wrapper a:hover {
-    background-color: var(--grey-colour-light);
+    background-color: var(--neutral-colour-middle);
 }
 
 .ellipses_drop_down_wrapper a:active {
-    background-color: var(--grey-colour-dark);
+    background-color: var(--neutral-colour-dark);
     color: var(--text-colour-light);
 }
 
 .ellipses_drop_down_wrapper .drop_down_options_wrapper {
     position: absolute;
-    top: 110%;
+    top: 160%;
     left: 0%;
     z-index: 8888;
-    border: 1px solid var(--primary-colour);
+    border: 1px solid var(--neutral-colour-dark);
     border-radius: var(--small-border-radius);
-    background-color: white;
+    background-color: var(--white-background-colour);
     display: none;
 }
 
 .ellipses_drop_down_wrapper .drop_down_options_wrapper .drop_down_option {
     display: block;
     padding: 7px 12px;
-    border-bottom: 1px solid var(--primary-colour);
-    color: var(--primary-colour);
+    border-bottom: 1px solid var(--neutral-colour-dark);
+    color: var(--text-colour-neutral);
     user-select: none;
+    border-radius: 0;
 }
 
 .ellipses_drop_down_wrapper .drop_down_options_wrapper .drop_down_option:last-child {
@@ -238,12 +238,12 @@
 }
 
 .dellipses_drop_down_wrapper .drop_down_options_wrapper .drop_down_option:hover {
-    background-color: var(--primary-colour-light);
+    background-color: var(--neutral-colour-light);
     text-decoration: underline;
 }
 
 .ellipses_drop_down_wrapper .drop_down_options_wrapper .drop_down_option:active {
-    background-color: var(--primary-colour-dark);
+    background-color: var(--neutral-colour-dark);
     color: var(--text-colour-light);
     text-decoration: none;
 }

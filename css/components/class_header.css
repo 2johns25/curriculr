@@ -3,8 +3,8 @@
 .class_header_wrapper {
     width: 100%;
     margin: 0 auto;
-    border-bottom: 1px solid var(--grey-colour);
-    background-color: white;
+    background-color: var(--white-background-colour);
+    box-shadow: var(--header-border-shadow);
 }
 
 .class_header_container {
@@ -27,6 +27,7 @@
     text-overflow: ellipsis;
     min-width: 50px;
     max-width: 400px;
+    color: var(--text-colour-dark);
 }
 
 .class_header_title a:hover {
@@ -40,36 +41,54 @@
 
 .class_nav_button {
     color: var(--text-colour-dark);
+    margin: 0 0 0 0.50rem;
 }
 
 .class_nav_button:hover {
-    background-color: var(--grey-colour-light);
+    background-color: var(--neutral-colour);
     text-decoration: underline;
 }
 
 .class_nav_button:active {
-    background-color: var(--grey-colour-dark);
+    background-color: var(--neutral-colour-dark);
+    color: var(--text-colour-light);
+    text-decoration: none;
+}
+
+.class_nav_button_active {
+    background-color: var(--neutral-colour);
+    text-decoration: underline;
 }
 
 .class_nav_action_button_wrapper {
     position: relative;
     display: inline-block;
-    margin: 0 0 0 1px;
+    margin: 0 0 0 0.50rem;
 }
 
 .class_nav_action_button_wrapper:after {
     position: absolute;
-    left: -1%;
+    left: -10%;
     top: 50%;
     transform: translateY(-50%);
     height: 50%;
     content: "";
     width: 1px;
-    background-color: var(--grey-colour);
+    background-color: var(--neutral-colour);
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+    .class_nav_button {
+        margin: 0 0 0 1rem;
+        font-size: 12px;
+    }
+    
+    .class_nav_action_button_wrapper {
+        margin: 0 0 0 1rem;
+        font-size: 12px;
+    }
 
 } 
 

@@ -1,5 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
 
+.members_box_wrapper {
+    margin: 2rem 0 0 0;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {

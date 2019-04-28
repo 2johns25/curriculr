@@ -5,14 +5,9 @@
 }
 
 .post_container {
-
-}
-
-.post_content_container {
-    background-color: white;
-    border: 1px solid var(--grey-colour);
-    border-bottom: 0;
-    border-radius: var(--medium-border-radius) var(--medium-border-radius) 0 0 ;
+    box-shadow: var(--box-border-shadow);
+    border-radius: var(--medium-border-radius) ;
+    background-color: var(--white-background-colour);
 }
 
 .post_header {
@@ -22,7 +17,7 @@
     align-items: center;
     white-space: nowrap;
     padding: 5px;
-    border-bottom: 1px solid var(--grey-colour);
+    border-bottom: 1px solid var(--neutral-colour);
 }
 
 .post_header_image {
@@ -45,7 +40,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: var(--text-colour-subtle);
+    color: var(--text-colour-neutral);
 }
 
 .post_name, .post_time {
@@ -56,6 +51,7 @@
 
 .post_time {
     font-size: 12px;
+    color: var(--text-colour-neutral);
 }
 
 .post_author_name {
@@ -109,14 +105,13 @@
 }
 
 .post_footer {
-    text-align: center;
+    text-align: right;
     overflow: hidden;
+    padding: 5px;
 }
 
 .post_footer .cta_button {
-    width: 100%;
-    text-align: center;
-    border-radius: 0 0 var(--medium-border-radius) var(--medium-border-radius);
+    border-radius: var(--medium-border-radius);
 }
 
 .post_footer .cta_button:hover {
@@ -128,6 +123,8 @@
     border-radius: var(--medium-border-radius);
     background-color: white;
 }
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {

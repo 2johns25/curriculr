@@ -9,12 +9,11 @@
     padding: 5px 0;
     position: fixed;
     z-index: 99999;
-
 }
 
 .header_container {
     width: 98%;
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -22,9 +21,15 @@
 }
 
 .header_logo {
-    width: 32px;
-    height: 32px;
-    margin: 0 1rem 0 0;
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    margin: 0 0.50rem 0 0;
+}
+
+.header_logo img {
+    height: 26px;
+    width: 26px;
 }
 
 /** SEARCH BAR **/
@@ -53,18 +58,18 @@
     padding: 5px 35px 5px 5px; 
     border: 0;
     outline: 0;
-    font-size: 1rem;
     background-color: rgba(255, 255, 255, 0.3);
     transition-duration: 0.5s;
-    color: var(--primary-colour);
+    color: var(--text-colour-dark);
+    font-size: 13px;
 }
 
 .search_field_wrapper input::placeholder {
-     
+    color: var(--text-colour-dark);
 }
 
 .search_field_wrapper input:focus {
-    background-color: white;
+    background-color: var(--white-background-colour);
 }
 
 .search_button_wrapper {
@@ -82,15 +87,16 @@
     border: 0;
     outline: 0;
     transition-duration: 0.1s;
+    color: var(--text-colour-dark);
 }
 
 .search_button_wrapper button:hover {
-    color: var(--primary-colour);
+    background-color: var(--neutral-colour);
 }
 
 .search_button_wrapper button:active {
     background-color: transparent;
-    color: black;
+    color: var(--text-colour-dark);
 }
 
 /** NAVIGATION **/
@@ -100,20 +106,18 @@
     user-select: none;
 }
 
-.nav_wrapper a {
-    font-size: 1.50rem;
-    margin: 0 0 0 1.50rem;
-    color: var(--primary-colour-dark);
+.nav_button {
+    font-size: 20px;
+    margin: 0 0 0 1.5rem;
+    color: var(--primary-colour-extra-dark);
 }
 
-.nav_wrapper a:hover {
-    color: rgb(4, 9, 13);
-    transition-duration: 0.1s;
+.nav_button:hover {
+    color: var(--primary-colour-light);
 }
 
-.nav_wrapper a:active {
-    color: rgb(255, 255, 255);
-    transition-duration: 0s;
+.nav_button:active {
+    color: var(--text-colour-light);
 }
 
 .nav_reminder_button_wrapper {
@@ -124,12 +128,12 @@
 .reminder_dropdown_wrapper {
     display: none;
     position: absolute;
-    top: 130%;
+    top: 140%;
     right: 0%;
     overflow: auto;
     z-index: 8888;
     border: 1px solid var(--primary-colour);
-    background-color: white;
+    background-color: var(--white-background-colour);
     border-radius: var(--small-border-radius);
     font-size: 12px;
     font-weight: 600;
@@ -149,8 +153,7 @@
 .reminder_dropdown_date_container {
     /* padding: 0 0 0.25rem 0; */
     margin: 0 0 1rem 0;
-    border-bottom: 1px solid var(--grey-colour);
-    
+    border-bottom: 1px solid var(--neutral-colour-dark);
 }
 
 .reminder_dropdown_date_container:last-child {
@@ -163,12 +166,11 @@
 .reminder_dropdown_date_container p {
     font-size: 10px;
     text-transform: uppercase;
-    color: var(--text-colour-subtle);
+    color: var(--text-colour-neutral);
     font-weight: var(--bold-weight);
     margin: 0 0 0.75rem 0;
     padding: 0;
     border-bottom: none;
-    
 }
 
 .reminder_dropdown_record_container {
@@ -176,11 +178,11 @@
 }
 
 .reminder_dropdown_record_container a:first-child {
-    font-size: 13px;
+    font-size: 12px;
     color: var(--primary-colour);
     font-weight: var(--bold-weight);
-    margin: 0 0 0.25rem 0;
-    display: block;
+    margin: 0 0 1px 0;
+    display: inline-block;
     max-width: 190px;
     overflow: hidden;
     white-space: nowrap;
@@ -188,15 +190,23 @@
 }
 
 .reminder_dropdown_record_container a:last-child {
-    font-size: 13px;
-    color: var(--text-colour-subtle);
+    font-size: 12px;
+    color: var(--text-colour-neutral);
     font-weight: var(--normal-weight);
     margin: 0 0 1rem 0;
-    display: block;
+    display: inline-block;
     max-width: 190px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.reminder_dropdown_record_container a:hover {
+    text-decoration: underline;
+}
+
+.reminder_dropdown_record_container a:active {
+    text-decoration: none;
 }
 
 .nav_option_button_wrapper {
@@ -207,7 +217,7 @@
 .nav_options {
     display: none;
     position: absolute;
-    top: 110%;
+    top: 140%;
     right: 10%;
     overflow: auto;
     z-index: 9999;
@@ -219,12 +229,16 @@
 }
 
 .nav_option {
+    font-size: 12px;
+    margin: 0;
     padding: 7px 12px;
     border-bottom: 1px solid var(--primary-colour);
     cursor: pointer;
     white-space: nowrap;
     min-width: 100px;
     color: var(--primary-colour);
+    display: block;
+    
 }
 
 .nav_option:last-child {
@@ -233,11 +247,13 @@
 
 .nav_option:hover {
    background-color: var(--primary-colour-light);
+   color: var(--text-colour-light);
+   text-decoration: underline;
 }
 
 .nav_option:active {
-    background-color: var(--primary-colour-dark);
-    color: white;
+    background-color: var(--primary-colour);
+    text-decoration: none;
  }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -255,10 +271,6 @@
     }
 
     /** NAVIGATION **/
-
-    .nav_wrapper a {
-        margin: 0 0 0 2rem;
-    }
 
     .reminder_dropdown_wrapper {
         width: 320px;

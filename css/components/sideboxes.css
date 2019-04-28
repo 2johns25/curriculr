@@ -3,8 +3,8 @@
 /** BOTH SIDEBOXES **/
 
 .sidebox_container {
-    background-color: white;
-    border: 1px solid var(--grey-colour); 
+    background-color: var(--white-background-colour);
+    box-shadow: var(--box-border-shadow);
     border-radius: var(--medium-border-radius);
     padding: 10px 10px;
     width: 100%;
@@ -13,6 +13,7 @@
 
 .sidebox_header {
     font-size: 14px;
+    color: var(--text-colour-dark);
     font-weight: var(--bold-weight);
     margin: 0 0 0.50rem 0;
 }
@@ -20,7 +21,7 @@
 /** REMINDER SIDEBOX **/
 
 .sidebox_section_container {
-    border-bottom: 1px solid var(--grey-colour);
+    border-bottom: 1px solid var(--neutral-colour-middle);
     margin: 0 0 0.50rem 0;
     padding: 0.50rem 0 0 0;
     
@@ -28,7 +29,7 @@
 
 .sidebox_section_header {
     font-size: 11px;
-    color: var(--text-colour-subtle);
+    color: var(--text-colour-neutral);
     text-transform: uppercase;
     font-weight: var(--bold-weight);
     margin: 0 0 0.50rem 0;
@@ -36,6 +37,16 @@
 
 .side_box_record_container {
     width: 100%;
+}
+
+.members_sidebox_image {
+    width: 32px;
+    height: 32px;
+    background-color: var(--primary-colour);
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    float: left;
 }
 
 .sidebox_record_title {
@@ -52,7 +63,7 @@
 
 .sidebox_record_link {
     font-size: 12px;
-    color: var(--text-colour-subtle);
+    color: var(--text-colour-neutral);
     display: inline-block;
     margin: 0 0 0.50rem 0;
     white-space: nowrap;
@@ -80,7 +91,23 @@
 
 .sidebox_footer a {
     font-size: 13px;
-    color: var(--text-colour-subtle);
+    color: var(--text-colour-neutral);
+}
+
+/** MEMBERS SIDEBOX **/
+
+.sidebox_view_all_pupils a {
+    text-align: left;
+    font-size: 13px;
+    color: var(--text-colour-neutral);
+}
+
+.sidebox_view_all_pupils a:hover {
+    text-decoration: underline;
+}
+
+.sidebox_view_all_pupils a:active {
+    text-decoration: none;
 }
 
 /** TOPIC SIDEBOX **/
@@ -90,7 +117,7 @@
     list-style-type: none;
     padding: 0.50rem 0 0px 0;
     margin: 0 0 8px 0;
-    border-bottom: 1px solid var(--grey-colour);
+    border-bottom: 1px solid var(--neutral-colour);
 }
 
 .topic_box_list li {
@@ -104,7 +131,7 @@
 }
 
 .content_sub_topic {
-    color: var(--text-colour-subtle);
+    color: var(--text-colour-neutral);
     font-weight: var(--normal-weight);
     font-size: 12px;
 }
