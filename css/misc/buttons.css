@@ -50,6 +50,7 @@
     left: 0%;
     z-index: 8888;
     border-radius: var(--small-border-radius);
+    border: 1px solid var(--primary-colour);
     background-color: white;
     display: none;
 }

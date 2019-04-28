@@ -16,4 +16,7 @@
                 <li><a class="content_sub_topic">Discussion</a></li>
             </ul>
         </ul>
+        <div class="sidebox_footer">
+            <a href="#">Edit topic</a>
+        </div>
 </div> <!-- Sidebox container -->

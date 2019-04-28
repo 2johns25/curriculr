@@ -88,7 +88,9 @@
 .topic_box_list {
     list-style-position: inside;
     list-style-type: none;
-    padding: 0.50rem 0 0 0;
+    padding: 0.50rem 0 0px 0;
+    margin: 0 0 8px 0;
+    border-bottom: 1px solid var(--grey-colour);
 }
 
 .topic_box_list li {
@@ -98,7 +100,7 @@
 .topic_title {
     color: var(--primary-colour);
     font-weight: var(--bold-weight);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .content_sub_topic {
@@ -108,7 +110,7 @@
 }
 
 .topic_box_sub_subtopic_list {
-    padding: 0 0 0 0.50rem;
+    padding: 0 0 0 0.75rem;
     list-style-type: none;
 }
 
