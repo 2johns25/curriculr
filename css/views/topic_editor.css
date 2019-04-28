@@ -1,15 +1,85 @@
 /* Extra small devices (phones, 600px and down) */
 
+.topic_editor_wrapper {
+    border-radius: var(--medium-border-radius);
+    background-color: none;
+}
+
 .topic_editor_container {
     white-space: normal;
     border-radius: var(--medium-border-radius);
-    overflow: hidden;
     background-color: white;
     border: 1px solid var(--grey-colour);
+    padding: 1px;
+}
+
+.note-editable ul {
+    list-style-type: disc;
 }
 
 .note-editor.note-frame {
     border: 0;
+}
+
+.note-statusbar {
+    display: none;
+}
+
+.note-toolbar {
+    overflow: scroll;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: row;
+}
+
+.note-btn-group {
+    margin: 0;
+}
+
+.note-btn {
+    border: 1px solid var(--grey-colour);
+    border-radius: var(--small-border-radius);
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+.note-icon-caret {
+    /* margin: 0 0 0 5px; */
+    padding: 0 0 0 10px;
+}
+
+.note-btn-group>.note-btn, .note-btn-group>.note-btn-group {
+    margin: 0 2px;
+}
+
+.note-popover .note-popover-content .note-color .dropdown-toggle, .note-toolbar .note-color .dropdown-toggle  {
+    width: auto;
+    padding: 5px 5px 5px 0;
+    margin: 0 0 0 -4px;
+}
+
+.note-btn-group>.note-btn:last-child:not(.note-dropdown), .note-btn-group>.note-btn-group:last-child:not(.note-dropdown) {
+    border-radius: var(--small-border-radius);
+}
+
+.note-btn-group>.note-btn:first-child, .note-btn-group>.note-btn-group:first-child {
+    border-radius: var(--small-border-radius);
+}
+
+.note-btn-group>.note-btn, .note-btn-group>.note-btn-group {
+    border-radius: var(--small-border-radius);
+}
+
+.note-btn:hover {
+    border: 1px solid var(--grey-colour);
+    background-color: var(--grey-colour-light);
+}
+
+.note-btn .dropdown-toggle .active {
+    background-color: var(--grey-colour-dark);
+    color: var(--text-colour-light);
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

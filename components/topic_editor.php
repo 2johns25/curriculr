@@ -6,7 +6,16 @@
 <script>
      $(document).ready(function() {
         $('#summernote').summernote({
-    
+  
+      toolbar: [
+        ['style', ['style']],
+        ['font', ['bold', 'underline']],
+        ['color', ['color']],
+        ['para', ['ul', 'ol', 'paragraph']],
+        ['table', ['table']],
+        ['insert', ['link', 'picture', 'video']]
+      ],
+
         codeviewFilter: false,
         codeviewIframeFilter: true,
         minHeight: 450,

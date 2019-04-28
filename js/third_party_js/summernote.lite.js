@@ -8109,7 +8109,8 @@
                 'underline': 'note-icon-underline',
                 'undo': 'note-icon-undo',
                 'unorderedlist': 'note-icon-unorderedlist',
-                'video': 'note-icon-video'
+                'video': 'note-icon-video',
+                'headers': 'fas fa-heading'
             }
         }
     });
