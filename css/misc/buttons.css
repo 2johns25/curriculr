@@ -205,11 +205,11 @@
 }
 
 .ellipses_drop_down_wrapper a:hover {
-    background-color: var(--neutral-colour-middle);
+    background-color: var(--neutral-colour-light);
 }
 
 .ellipses_drop_down_wrapper a:active {
-    background-color: var(--neutral-colour-dark);
+    background-color: var(--neutral-colour-middle);
     color: var(--text-colour-light);
 }
 

@@ -2,7 +2,7 @@
     <p class="sidebox_header">Class members</p>
 
     <div class="sidebox_section_container">
-        <p class="sidebox_section_header">Teacher</p>
+        <p class="sidebox_section_header">Teachers</p>
         
         <div class="sidebox_record_container clearfix">
             <div class="members_sidebox_image"></div>
@@ -18,7 +18,7 @@
     </div> <!-- Sidebox section -->
 
     <div class="sidebox_section_container">
-        <p class="sidebox_section_header" >Pupils</p>
+        <p class="sidebox_section_header">Pupils (23)</p>
         
         <div class="sidebox_record_container clearfix">
             <div class="members_sidebox_image"></div>
@@ -26,9 +26,6 @@
             <a class="sidebox_record_link">Year 11 History</a>
         </div> <!-- Sidebox record -->
     </div> <!-- Sidebox section -->
-    <div class="sidebox_view_all_pupils">
-        <a href="#">View all pupils (23)</a>
-    </div>
     <div class="sidebox_footer">
         <a href="#">View all</a>
     </div>

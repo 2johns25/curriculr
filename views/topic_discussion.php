@@ -5,7 +5,7 @@
     <div class="two_col_layout_wrapper">
         <div class="two_col_layout_main_col two_col_layout_main_col_reverse">
             <div class="topic_content_wrapper">
-                <?php require "../components/topic_content.php"?>
+                <?php require "../components/topic_comments.php"?>
             </div>
         </div> <!-- Two col layout main col -->
 

@@ -46,18 +46,15 @@
 
 .class_nav_button:hover {
     background-color: var(--neutral-colour);
-    text-decoration: underline;
 }
 
 .class_nav_button:active {
     background-color: var(--neutral-colour-dark);
     color: var(--text-colour-light);
-    text-decoration: none;
 }
 
 .class_nav_button_active {
-    background-color: var(--neutral-colour);
-    text-decoration: underline;
+  
 }
 
 .class_nav_action_button_wrapper {

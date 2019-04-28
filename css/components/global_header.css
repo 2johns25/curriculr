@@ -13,7 +13,7 @@
 
 .header_container {
     width: 98%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

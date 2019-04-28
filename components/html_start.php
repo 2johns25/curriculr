@@ -20,6 +20,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Sam Johns">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/logo/favicon.png"/>
     <title>Home | Curriculr</title>
 
     <!-- Include fontawaesome external file -->

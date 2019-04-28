@@ -6,6 +6,7 @@
     border-radius: var(--medium-border-radius);
     min-height: 600px;
     width: 100%;
+    box-shadow: var(--box-border-shadow);
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

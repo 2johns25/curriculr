@@ -8,6 +8,7 @@
     box-shadow: var(--box-border-shadow);
     border-radius: var(--medium-border-radius) ;
     background-color: var(--white-background-colour);
+    padding: 5px 10px;
 }
 
 .post_header {
@@ -16,8 +17,8 @@
     justify-content: space-between;
     align-items: center;
     white-space: nowrap;
-    padding: 5px;
     border-bottom: 1px solid var(--neutral-colour);
+    padding: 0 0 5px 0;
 }
 
 .post_header_image {
@@ -68,25 +69,13 @@
     text-decoration: none;
 }  
 
-.post_type {
-    color: var(--primary-colour);
-}
-
-.post_type:hover {
-    text-decoration: underline;
-}
-
-.post_type:active {
-    text-decoration: none;
-}
-
 .post_options_button {
     flex-shrink: 0;
     flex-grow: 0;
 }
 
 .post_body {
-    padding: 5px 5px 10px 5px;
+    padding: 10px;
     white-space: normal;
 }
 
@@ -107,15 +96,10 @@
 .post_footer {
     text-align: right;
     overflow: hidden;
-    padding: 5px;
 }
 
 .post_footer .cta_button {
     border-radius: var(--medium-border-radius);
-}
-
-.post_footer .cta_button:hover {
-    text-decoration: underline;
 }
 
 .reminder_post_container {
