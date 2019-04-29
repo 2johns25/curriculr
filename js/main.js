@@ -2,6 +2,13 @@
 
 $(document).ready(function(){
     
+    /** Topic editor button **/
+
+    $(".topic_editor_button_button").click(function(){
+        console.log("Topic editor button pressed");
+        $(this).parent().children(".drop_down_options_wrapper").toggle();
+    });
+
     /** SHOW MODAL **/
 
     $("#teacher_login_btn").click(function(){
@@ -18,14 +25,16 @@ $(document).ready(function(){
 
      /** TOGGLE NAVIGATION OPTIONS **/
 
-    $(".nav_option_button").click(function(){
+    $(".nav_option_button").click(function(e){
+        e.preventDefault();
         console.log("Nav options clicked");
       $(".nav_options").toggle();
     });
 
     /** TOGGLE REMINDERS BOX **/
 
-    $(".nav_notif_button").click(function(){
+    $(".nav_notif_button").click(function(e){
+        e.preventDefault();
         console.log("Nav reminders clicked");
       $(".reminder_dropdown_wrapper").toggle();
     });

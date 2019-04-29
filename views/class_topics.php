@@ -1,3 +1,6 @@
+<?php 
+$class_title = "Year 11 History";
+$page_title = "Topics - " . $class_title . " | Curriculr"; ?>
 <?php require "../components/html_start.php"?>
 <?php require "../components/global_header.php"?>
 <?php require "../components/class_header.php"?>
