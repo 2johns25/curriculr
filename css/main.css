@@ -11,6 +11,21 @@
 @import "misc/variables.css";
 @import "misc/buttons.css";
 
+/** VIEWS **/
+
+@import "views/login.css";
+@import "views/home.css";
+@import "views/profile.css";
+@import "views/search.css";
+@import "views/error.css";
+
+@import "views/class_whiteboard.css";
+@import "views/class_topics.css";
+@import "views/topic.css";
+@import "views/sub_topic.css";
+
+@import "views/topic_editor.css";
+
 /** COMPONENTS **/
 
 @import "components/global_header.css";
@@ -27,19 +42,3 @@
 
 @import "components/posts.css";
 @import "components/topic_comments.css";
-
-
-/** VIEWS **/
-
-@import "views/login.css";
-@import "views/home.css";
-@import "views/profile.css";
-@import "views/search.css";
-@import "views/error.css";
-
-@import "views/class_whiteboard.css";
-@import "views/class_topics.css";
-@import "views/topic.css";
-@import "views/sub_topic.css";
-
-@import "views/topic_editor.css";

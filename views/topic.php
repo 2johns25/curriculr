@@ -2,6 +2,10 @@
 <?php require "../components/global_header.php"?>
 <?php require "../components/class_header.php"?>
 <div class="global_content_container">
+    <div class="one_col_layout_wrapper">
+        <?php require "../components/topic_header.php"?>
+    </div>
+
     <div class="two_col_layout_wrapper">
         <div class="two_col_layout_main_col two_col_layout_main_col_reverse">
             <div class="topic_content_wrapper">

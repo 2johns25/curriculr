@@ -24,14 +24,6 @@
             <div class="single_comment_bubble">
                 <div class="single_comment_content">
                     <p><span>Holly Williams</span> I dont understand what we have to do</p>
-                    <div class="comment_options_button ellipses_drop_down_wrapper">
-                        <a href="#" class="ellipses_button"><i class="fas fa-ellipsis-h"></i></a>
-                        <div class="drop_down_options_wrapper">
-                            <a class="drop_down_option">Copy link</a>
-                            <a class="drop_down_option">Report</a>
-                            <a class="drop_down_option">Delete</a>
-                        </div> <!-- Drop down options wrapper -->
-                        </div> <!-- Ellipses dropdown button -->
                 </div> <!-- Single comment content-->
                 <a href="#" class="reply_button">Reply</a>
             </div> <!-- Single comment bubble -->
@@ -43,16 +35,7 @@
             <div class="single_comment_bubble">
                 <div class="single_comment_content">
                     <p><span>Holly Williams</span> I dont understand what we have to do</p>
-                    <div class="comment_options_button ellipses_drop_down_wrapper">
-                        <a href="#" class="ellipses_button"><i class="fas fa-ellipsis-h"></i></a>
-                        <div class="drop_down_options_wrapper">
-                            <a class="drop_down_option">Copy link</a>
-                            <a class="drop_down_option">Report</a>
-                            <a class="drop_down_option">Delete</a>
-                        </div> <!-- Drop down options wrapper -->
-                        </div> <!-- Ellipses dropdown button -->
                 </div> <!-- Single comment content-->
-                <a href="#" class="reply_button">Reply</a>
             </div> <!-- Single comment bubble -->
         </div> <!-- Single comment wrapper -->
 

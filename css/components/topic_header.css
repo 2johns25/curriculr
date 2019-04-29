@@ -107,6 +107,91 @@
     text-decoration: none;
 }
 
+.delete_modal_actions {
+    justify-content: center;
+}
+
+.delete_modal_actions button {
+    background-color: var(--tertiary-colour);
+}
+
+.delete_modal_actions button:hover {
+    background-color: var(--tertiary-colour-light);
+}
+
+.delete_modal_actions button:active {
+    background-color: var(--tertiary-colour);
+}
+
+.copy_modal_actions button {
+    background-color: var(--primary-colour);
+}
+
+.copy_modal_actions button:hover {
+    background-color: var(--primary-colour-light);
+}
+
+.modal_actions button:active {
+    background-color: var(--primary-colour-dark);
+}
+
+.create_topic_modal .form_action_group textarea,
+.create_reminder_modal .form_action_group textarea,
+.create_section_modal .form_action_group textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+    border: 1px solid var(--neutral-colour);
+}
+
+.create_topic_modal .login_form,
+.create_reminder_modal .login_form,
+.create_section_modal .login_form {
+    width: 70%;
+}
+
+.create_reminder_modal .form_action_group input[type="date"] {
+    width: 50%;
+}
+
+/** SNACKBARS **/
+
+.snackbar_style_wrapper {
+    position: absolute;
+    z-index: 9997;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    display: none;
+}
+
+.snackbar_container {
+    width: 300px;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: var(--bold-weight);
+    position: relative;
+}
+
+.close_snackbar {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    cursor: pointer;
+    color: var(--text-colour-light); 
+}
+
+.negative_snackbar {
+    background-color: var(--tertiary-colour-middle);
+    color: var(--text-colour-light);
+}
+
+.positive_snackbar {
+    background-color: var(--primary-colour-middle);
+    color: var(--text-colour-light); 
+}
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {

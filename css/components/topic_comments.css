@@ -46,7 +46,6 @@
 
 .new_comment_placeholder_container {
     position: relative;
-    border-bottom: 1px solid var(--primary-colour);
     padding: 0 0 0 0;
 }
 
@@ -123,7 +122,6 @@
     width: 100%;
     border-radius: 20px;
     padding: 10px 10px;
-    text-align: right;
 }
 
 .single_comment_content {
@@ -160,7 +158,6 @@
 .single_comment_bubble .reply_button {
     font-size: 13px;
     color: var(--primary-colour);
-    margin: 10px 0 0 0;
     display: inline-block;
 }
 
@@ -183,6 +180,7 @@
 
 .new_reply_comment {
     padding: 0 0 0 3rem;
+    display: none;
 }
 
 .new_reply_comment .new_comment_container {

@@ -39,16 +39,6 @@
     width: 100%;
 }
 
-.members_sidebox_image {
-    width: 32px;
-    height: 32px;
-    background-color: var(--primary-colour);
-    border-radius: 100%;
-    display: inline-block;
-    margin: 0 10px 0 0;
-    float: left;
-}
-
 .sidebox_record_title {
     font-size: 13px;
     color: var(--primary-colour);
@@ -95,6 +85,15 @@
 }
 
 /** MEMBERS SIDEBOX **/
+
+.members_sidebox_image {
+    width: 32px;
+    height: 32px;
+    background-color: var(--primary-colour);
+    border-radius: 100%;
+    margin: 2px 10px 0 0;
+    float: left;
+}
 
 .sidebox_view_all_pupils a {
     text-align: left;
