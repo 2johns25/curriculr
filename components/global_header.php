@@ -52,7 +52,7 @@
                 <a href="#" class="nav_option_button nav_button"><i class="fas fa-caret-down"></i></a>
             <div class="nav_options" id="js_drop_down">
                         <a href="#" class="nav_option">Settings</a>
-                        <a href="#" class="nav_option">Logout</a>
+                        <a href="../php/scripts/logout.php" class="nav_option">Logout</a>
                 </div> <!-- Nav options -->
             </div> <!-- Nav option button wrapper -->
         </div> <!-- Nav wrapper -->

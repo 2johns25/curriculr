@@ -8,7 +8,7 @@
 
 /* As RGBa codes */
 
-.rgba-primary-0 { color: rgba( 13, 84,223,1) }	/* Main Primary color */
+.rgba-primary-0 { color: rgb(13, 84, 223) }	/* Main Primary color */
 .rgba-primary-1 { color: rgba( 84,131,225,1) }
 .rgba-primary-2 { color: rgba( 43,103,223,1) }
 .rgba-primary-3 { color: rgba(  7, 61,168,1) }

@@ -17,7 +17,7 @@
             </div> <!-- Post header -->
             <div class="post_body">
                 <div class="post_title_container">
-                    <p><span class="post_reminder_time">2 June</span> - Bring your book to next lesson</p>
+                    <p><span class="post_reminder_time">For 2 June</span> - Bring your book to next lesson</p>
                 </div> <!-- Post title container -->
                 <div class="post_message_container">
                     <p>Post message</p>

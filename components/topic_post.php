@@ -8,7 +8,7 @@
             </div> <!-- Post header info -->
             <div class="post_options_button ellipses_drop_down_wrapper">
                 <a href="#" class="ellipses_button"><i class="fas fa-ellipsis-h"></i></a>
-                <div class="drop_down_options_wrapper">
+                <div class="drop_down_options_wrapper" id="js-show">
                     <a class="drop_down_option">Copy link</a>
                     <a class="drop_down_option">Report</a>
                     <a class="drop_down_option">Delete</a>

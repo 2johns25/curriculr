@@ -1,15 +1,15 @@
 <?php  // SETTING THE IMPORTANT PHP ASPECTS OF EACH PAGE
 
 // Including the main.php file to initialise the backend
-// require_once("/home/sjohns/public_html/curriculr/php/main.php"); 
+require_once("/home/sjohns/public_html/curriculr/php/main.php"); 
 
 // Start the user session
-// session_start();
+session_start();
 
 // Check that the user is logged in
-// if (!isset ($_SESSION['TeacherUsername'])) {
-//     header("Location: ../index.php");
-// }
+if (!isset ($_SESSION['TeacherUsername'])) {
+    header("Location: ../index.php");
+}
 
 ?>
 
