@@ -3,7 +3,7 @@
         <div class="class_table_row">
             <div class="class_table_col1"><p>Class title</p></div>
             <div class="class_table_col2"><p>Class teacher</p></div>
-            <div class="class_table_col3"><p>Year-year</p></div>
+            <div class="class_table_col3"><p>Year</p></div>
         </div> <!-- Class table row -->
     </div> <!-- Class table header -->
 

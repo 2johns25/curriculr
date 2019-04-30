@@ -32,6 +32,12 @@
     flex-grow: 0;
 }
 
+.post_header_image img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
 .post_header_info {
     max-width: 600px;
     flex-shrink: 1;

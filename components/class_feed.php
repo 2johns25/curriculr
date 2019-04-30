@@ -3,7 +3,9 @@
 <div class="post_wrapper">
     <div class="post_container">
         <div class="post_header">
-            <div class="post_header_image"></div>
+            <div class="post_header_image">
+            <img src="../assets/images/teacher1.jpg"/>
+            </div>
             <div class="post_header_info">
                 <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new topic to the class</p>
                 <p class="post_time">4 January</p>
@@ -28,7 +30,8 @@
 <div class="post_wrapper">
     <div class="post_container">
             <div class="post_header">
-                <div class="post_header_image"></div>
+                <div class="post_header_image">
+                <img src="../assets/images/teacher1.jpg"/></div>
                 <div class="post_header_info">
                     <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new sub-topic to the class</p>
                     <p class="post_time">4 January</p>
@@ -51,7 +54,9 @@
 <div class="post_wrapper">
     <div class="post_container">
             <div class="post_header">
-                <div class="post_header_image"></div>
+                <div class="post_header_image">
+                <img src="../assets/images/teacher1.jpg"/>
+                </div>
                 <div class="post_header_info">
                     <p class="post_name"><a class="post_author_name">Mrs Doe</a> added a new reminder to the class</p>
                     <p class="post_time">1 January</p>
@@ -71,7 +76,9 @@
 <div class="post_wrapper">
     <div class="post_container">
             <div class="post_header">
-                <div class="post_header_image"></div>
+                <div class="post_header_image">
+                <img src="../assets/images/teacher1.jpg"/>
+                </div>
                 <div class="post_header_info">
                     <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new sub-topic to the class</p>
                     <p class="post_time">4 January</p>
@@ -93,7 +100,9 @@
 <div class="post_wrapper">
     <div class="post_container">
             <div class="post_header">
-                <div class="post_header_image"></div>
+                <div class="post_header_image">
+                <img src="../assets/images/teacher1.jpg"/>
+                </div>
                 <div class="post_header_info">
                     <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new sub-topic to the class</p>
                     <p class="post_time">4 January</p>
@@ -115,7 +124,9 @@
 <div class="post_wrapper">
     <div class="post_container">
             <div class="post_header">
-                <div class="post_header_image"></div>
+                <div class="post_header_image">
+                <img src="../assets/images/teacher1.jpg"/>
+                </div>
                 <div class="post_header_info">
                     <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new sub-topic to the class</p>
                     <p class="post_time">4 January</p>
@@ -137,7 +148,9 @@
 <div class="post_wrapper">
     <div class="post_container">
             <div class="post_header">
-                <div class="post_header_image"></div>
+                <div class="post_header_image">
+                <img src="../assets/images/teacher1.jpg"/>
+                </div>
                 <div class="post_header_info">
                     <p class="post_name"><a class="post_author_name">Mrs Doe</a> added a new reminder to the class</p>
                     <p class="post_time">13 January</p>
@@ -157,7 +170,9 @@
 <div class="post_wrapper">
     <div class="post_container">
             <div class="post_header">
-                <div class="post_header_image"></div>
+                <div class="post_header_image">
+                <img src="../assets/images/teacher1.jpg"/>
+                </div>
                 <div class="post_header_info">
                     <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new sub-topic to the class</p>
                     <p class="post_time">4 January</p>
@@ -179,7 +194,9 @@
 <div class="post_wrapper">
     <div class="post_container">
             <div class="post_header">
-                <div class="post_header_image"></div>
+                <div class="post_header_image">
+                <img src="../assets/images/teacher1.jpg"/>
+                </div>
                 <div class="post_header_info">
                     <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new sub-topic to the class</p>
                     <p class="post_time">4 January</p>
@@ -201,7 +218,9 @@
 <div class="post_wrapper">
     <div class="post_container">
             <div class="post_header">
-                <div class="post_header_image"></div>
+                <div class="post_header_image">
+                <img src="../assets/images/teacher1.jpg"/>
+                </div>
                 <div class="post_header_info">
                     <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new sub-topic to the class</p>
                     <p class="post_time">4 January</p>
