@@ -58,12 +58,12 @@
 }
 
 .topic_table_body .topic_table_row:hover {
-    background-color: var(--primary-colour-light);
+    background-color: var(--primary-colour);
     color: var(--text-colour-light);
 }
 
 .topic_table_body .topic_table_row:active {
-    background-color: var(--primary-colour);
+    background-color: var(--primary-colour-light);
 }
 
 .topic_table_body .topic_table_row:hover .topic_table_col1 {

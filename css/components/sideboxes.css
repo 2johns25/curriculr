@@ -95,6 +95,12 @@
     float: left;
 }
 
+.members_sidebox_image img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
 .sidebox_view_all_pupils a {
     text-align: left;
     font-size: 13px;
@@ -116,7 +122,6 @@
     list-style-type: none;
     padding: 0.50rem 0 0px 0;
     margin: 0 0 8px 0;
-    border-bottom: 1px solid var(--neutral-colour);
 }
 
 .topic_box_list li {

@@ -1,24 +1,23 @@
 /* Extra small devices (phones, 600px and down) */
 
 .topic_header_container {
-    margin: 1rem 0 0 0;
+
 }
 
 .topic_header_action_buttons_wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: row;
     white-space: nowrap;
 }
 
 .topic_editor_buttons {
-    margin: 0 1rem 0 0;
 }
 
 .topic_edit_cancel {
     color: var(--text-colour-dark);
-    margin: 0 auto 0 1rem;
+    margin: 0 1rem 0 0;
 }
 
 .topic_edit_cancel:hover {
@@ -74,6 +73,10 @@
     border-bottom: 1px solid var(--primary-colour);
     color: var(--primary-colour);
     user-select: none;
+}
+
+.topic_editor_button {
+    margin: 0 1rem 0 0;
 }
 
 .topic_editor_button .drop_down_options_wrapper .drop_down_option:last-child {

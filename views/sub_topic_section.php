@@ -9,23 +9,18 @@
         <div class="two_col_layout_main_col two_col_layout_main_col_reverse">
             <div class="topic_content_wrapper">
                         <div class="topic_content_container">
-                    <h1 class="title">Layer 1: Physical layer</h1>
-
-                   <p class="intro_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-
-                     <div class="topic_content_image_container">
-                        <div class="topic_content_image">
-                        <img src="../assets/images/network2.jpg"/>
-                        </div>
-                        <p class="figure_caption">Figure caption</p>
-                    </div>
-
-                    <hr/>
+                    <h1 class="title">Wired media</h1>
 
                     <h2 class="sub_heading">Sub-heading</h2>
 
                     <p class="normal_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+                     <div class="topic_content_image_container">
+                        <div class="topic_content_image">
+                        <img src="../assets/images/network3.jpg"/>
+                        </div>
+                        <p class="figure_caption">Figure caption</p>
+                    </div>
                    
             </div> <!-- Topic content container -->
             </div>
@@ -40,7 +35,7 @@
             <ul class="topic_box_subtopic_list">
                 <li><a href="sub_topic.php" class="content_sub_topic content_active_link">Layer 1: Physical layer</a></li>
                     <ul class="topic_box_sub_subtopic_list">
-                        <li><a href="sub_topic_section.php" class="content_sub_topic ">Wired media</a></li>
+                        <li><a href="sub_topic_section.php" class="content_sub_topic content_active_link">Wired media</a></li>
                         <li><a class="content_sub_topic">Wireless media</a></li>
                     </ul>
                 <li><a class="content_sub_topic">Layer 2: Data link layer</a></li>
@@ -53,7 +48,6 @@
             </ul>
         </ul>    
 </div> <!-- Sidebox container -->
-
             </div> <!-- Topic sidebox wrapper -->
         </div> <!-- Two col layout side col -->
 

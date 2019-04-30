@@ -29,6 +29,12 @@
     align-self: flex-start;
 }
 
+.new_comment_user_image img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
 .new_comment_form_wrapper {
     align-items: center;
     display: flex;
@@ -117,6 +123,12 @@
     align-self: flex-start;
 }
 
+.single_comment_user_image img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
 .single_comment_bubble {
     background-color: var(--neutral-colour);
     width: 100%;
@@ -159,6 +171,7 @@
     font-size: 13px;
     color: var(--primary-colour);
     display: inline-block;
+    margin: 0.50rem 0 0 0;
 }
 
 .single_comment_bubble .reply_button:hover {

@@ -8,7 +8,7 @@
                 <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new topic to the class</p>
                 <p class="post_time">4 January</p>
             </div> <!-- Post header info -->
-            <a class="cta_button">Go to topic</a>
+            <a class="cta_button" href="topic.php">Go to topic</a>
         </div> <!-- Post header -->
         <div class="post_body">
             <div class="post_title_container">
@@ -33,7 +33,7 @@
                     <p class="post_name"><a class="post_author_name">Mrs Robinson</a> added a new sub-topic to the class</p>
                     <p class="post_time">4 January</p>
                 </div> <!-- Post header info -->
-                <a class="cta_button">Go to topic</a>
+                <a class="cta_button" href="topic.php" >Go to topic</a>
             </div> <!-- Post header -->
             <div class="post_body">
                 <div class="post_title_container">

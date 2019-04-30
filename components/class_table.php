@@ -9,7 +9,7 @@
 
     <div class="class_table_body">
 
-        <a class="class_table_row" href="#">
+        <a class="class_table_row" href="class_whiteboard.php">
             <div class="class_table_col1"><p>Year 11, Set B2 ICT (IB211)</p></div>
             <div class="class_table_col2"><p>Mrs Robinson</p></div>
             <div class="class_table_col3"><p>2018-2019</p></div>

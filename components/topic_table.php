@@ -8,7 +8,7 @@
 
     <div class="topic_table_body">
 
-        <a class="topic_table_row" href="#">
+        <a class="topic_table_row" href="topic.php">
             <div class="topic_table_col1"><p>Introduction to the OSI Network Model</p></div>
             <div class="topic_table_col2"><p>4 January, 2019</p></div>
         </a> <!-- Topic table row -->

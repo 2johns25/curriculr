@@ -158,7 +158,7 @@
             <div class="snackbar_style_wrapper positive_snackbar new_reminder_snackbar">
             <div class="snackbar_container">
                 <p class="close_snackbar"><i class="fas fa-times"></i></p>
-                <p>Created</p>
+                <p>Changes saved</p>
             </div>
             </div>
 

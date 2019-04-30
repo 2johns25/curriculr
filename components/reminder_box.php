@@ -2,7 +2,7 @@
     <p class="sidebox_header">Class reminders</p>
 
     <div class="sidebox_section_container">
-        <p class="sidebox_section_header">For 2 June</p>
+        <p class="sidebox_section_header">For 13 January</p>
         
         <div class="sidebox_record_container">
             <a class="sidebox_record_title">Practice test</a></br>
@@ -11,7 +11,7 @@
     </div> <!-- Sidebox section -->
 
     <div class="sidebox_section_container">
-        <p class="sidebox_section_header" >For 13 June</p>
+        <p class="sidebox_section_header" >For 19 January</p>
         
         <div class="sidebox_record_container">
             <a class="sidebox_record_title">Pracice test results</a></br>

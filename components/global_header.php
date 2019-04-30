@@ -19,7 +19,7 @@
                 <div class="reminder_dropdown_wrapper">
                     <p>Reminders</p>
                     <div class="reminder_dropdown_date_container">
-                        <p>For 2 June</p>
+                        <p>For 13 January</p>
                         <div class="reminder_dropdown_record_container">
                             <a>Practice test</a></br>
                             <a>Year 11, Set B2 ICT (IB211)</a>
@@ -30,7 +30,7 @@
                         </div> <!-- Reminder dropdown record container -->
                     </div> <!-- Reminder dropdown date container -->
                      <div class="reminder_dropdown_date_container">
-                        <p>For 13 June</p>
+                        <p>For 19 January</p>
                         <div class="reminder_dropdown_record_container">
                             <a>Pracice test results</a></br>
                             <a>Year 11, Set B2 ICT (IB211)</a>

@@ -51,6 +51,7 @@
 
 .search_field_wrapper {
     width: 100%;
+    border-radius: var(--small-border-radius);
 }
 
 .search_field_wrapper input {
@@ -62,10 +63,11 @@
     transition-duration: 0.5s;
     color: var(--text-colour-dark);
     font-size: 13px;
+    border-radius: var(--small-border-radius);
 }
 
 .search_field_wrapper input::placeholder {
-    color: var(--text-colour-dark);
+    color: var(--neutral-colour-dark);
 }
 
 .search_field_wrapper input:focus {
@@ -91,7 +93,7 @@
 }
 
 .search_button_wrapper button:hover {
-    background-color: var(--neutral-colour);
+    background-color: var(--primary-colour-light);
 }
 
 .search_button_wrapper button:active {
